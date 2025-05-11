@@ -1,0 +1,180 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 40px 20px;
+  background: #dff0d8;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #2e7d32;
+}
+
+#mainBtn {
+  padding: 12px 25px;
+  background-color: #81c784;
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#mainBtn:hover {
+  background-color: #66bb6a;
+}
+
+#secretAction {
+  color: #388e3c;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+/* Gallery */
+#gallery {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.slideshow img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.slideshow button {
+  padding: 10px 20px;
+  background: #43a047;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.slideshow button:hover {
+  background: #2e7d32;
+}
+
+/* Tabs */
+#tabs {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.tab-buttons {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.tab-buttons button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  background: #aed581;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tab-buttons button:hover {
+  background: #9ccc65;
+}
+
+.tab-content {
+  display: block;
+  margin-top: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+.activity-img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+/* Contact Form */
+#formSection {
+  background: #e8f5e9;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: auto;
+}
+
+#formSection h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 2px solid #c8e6c9;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #66bb6a;
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #43a047;
+}
+
+#formFeedback {
+  color: red;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .tab-buttons button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .activity-img {
+    max-width: 100%;
+  }
+}
